@@ -1,7 +1,7 @@
 # Task 1 - Basic Network Scanning with Nmap
 
 ## Objective
-The objective of this task is to perform a network scan using Nmap to identify open ports and services running on a local machine.
+Perform a network scan using Nmap to identify open ports and services.
 
 ## Tools Used
 - Kali Linux
@@ -14,62 +14,30 @@ python3 -m http.server 8000
 nmap -sV 127.0.0.1
 ```
 
-## Scan Results
+## Scan Result
 
-```bash
-Starting Nmap 7.95 ( https://nmap.org ) at 2026-05-15
-Nmap scan report for localhost (127.0.0.1)
-Host is up (0.0000010s latency).
+| Port | State | Service | Version |
+|------|--------|----------|----------|
+| 8000 | Open | HTTP | SimpleHTTPServer 0.6 |
 
-Not shown: 999 closed tcp ports (reset)
+## Findings
+- Port 8000 was open.
+- HTTP service was running on the port.
+- 999 TCP ports were closed.
 
-PORT     STATE SERVICE VERSION
-8000/tcp open  http    SimpleHTTPServer 0.6 (Python 3.13.9)
-
-Service detection performed.
-```
-
-## Findings and Port Significance
-
-During the Nmap scan, one open port was identified on the local machine.
-
-| Port | State | Service | Version | Significance |
-|------|--------|----------|----------|--------------|
-| 8000 | Open | HTTP | SimpleHTTPServer 0.6 | Port 8000 is commonly used for web development and testing web applications. The HTTP service allows communication between web servers and clients through a browser. |
-
-### Additional Findings
-- The host machine was active and reachable.
-- Nmap scanned 1000 common TCP ports.
-- 999 ports were closed.
-- Only port 8000 was found open and running an HTTP service.
-
-## Security Importance
-Open ports can expose running services to a network. Identifying open ports helps security analysts detect unnecessary services and reduce potential security risks.
-
-## Screenshots
-Screenshots of the Nmap scan output are included in this repository.
+## Significance of Open Port
+Port 8000 is used for web communication and testing web applications.
 
 ## Files Included
 - README.md
 - nmap_scan_results.txt
-- Screenshots of scan output
+- Screenshots
 
-## Learning Outcome
-Through this task, I learned:
-- How to install and use Nmap
-- How to scan a local machine
-- How to identify open ports and running services
-- The importance of open ports in cybersecurity
-
-## Future Improvements
-Future scans can include:
-- Scanning remote systems in a controlled environment
-- Detecting operating systems
-- Performing advanced vulnerability assessments
+## Demo Video
+https://drive.google.com/file/d/1KjZLR0FjavumANC8WARUNVpbwC9gGkTg/view?usp=drive_link
 
 ## Conclusion
-The network scan was successfully performed using Nmap. The scan identified an active HTTP service running on port 8000. This task demonstrates how Nmap can be used to detect open ports and services on a system.
+The network scan was completed successfully using Nmap. The scan identified an active HTTP service running on port 8000.
 
 ## Author
-DIYORA SHREYKUMAR ASHOKBHAI  
-Security Analyst Intern - Oasis Infobyte
+DIYORA SHREY ASHOKBHAI
