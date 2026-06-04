@@ -44,5 +44,5 @@ Nikto successfully scanned the local web server running on port 8000 and identif
 
 ## Author
 
-DIYORA SHREY ASHOKBHAI
+DIYORA SHREYKUMAR ASHOKBHAI
 
