@@ -38,4 +38,4 @@ sudo ufw status verbose
 The firewall was configured successfully using UFW to manage incoming traffic and improve system security.
 
 ## Author
-DIYORA SHREY ASHOKBHAI
+DIYORA SHREYKUMAR ASHOKBHAI
