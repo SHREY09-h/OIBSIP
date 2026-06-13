@@ -35,7 +35,7 @@ The Nikto scan identified the following:
 * User configuration files (.bashrc and .profile) were detected.
 
 ## Demo Video
-https://drive.google.com/drive/u/1/folders/1086Zzw0r5wnHY8FwrxkdFmMPTYug3NF3
+https://drive.google.com/file/d/1Ksh34f56RrStMnEA-NVI1BrTB1Amqgwy/view?usp=drive_link
 
 ## Conclusion
 
