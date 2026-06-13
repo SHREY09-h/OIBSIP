@@ -33,7 +33,7 @@ sudo ufw status verbose
 - Screenshots
 
 ## Demo Video Link
-https://drive.google.com/drive/u/1/folders/1086Zzw0r5wnHY8FwrxkdFmMPTYug3NF3
+https://drive.google.com/file/d/1QwYOhq9-XjSEA46ulZ41Ybz_zyjRUJiE/view?usp=drive_link
 
 ## Conclusion
 The firewall was configured successfully using UFW to manage incoming traffic and improve system security.
